@@ -1,11 +1,5 @@
-'use client';
-
 // import Map from '@/components/map/Map';
-import dynamic from 'next/dynamic';
-
-const Map = dynamic(() => import('@/components/map/Map'), {
-  ssr: false,
-});
+import Map from '@/components/map/Map';
 
 export default function HomePage() {
   return (
