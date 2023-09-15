@@ -1,16 +1,16 @@
 import '@mantine/core/styles.css';
-import React from 'react';
+import React, { ReactNode } from 'react';
 import { MantineProvider, ColorSchemeScript } from '@mantine/core';
 
 import Script from 'next/script';
-// import { NavermapsProvider } from 'react-naver-maps';
+import Header from '@/components/Header/Header';
 
 export const metadata = {
   title: 'My-Franchise',
   description: 'This is My-Franchise clone project',
 };
 
-export default function RootLayout({ children }: { children: any }) {
+export default async function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="ko">
       <head>
@@ -22,9 +22,8 @@ export default function RootLayout({ children }: { children: any }) {
       </head>
       <body>
         <MantineProvider>
-          {/* <NavermapsProvider ncpClientId={process.env.NAVER_MAPS_CLIENT_ID!}> */}
+          <Header />
           {children}
-          {/* </NavermapsProvider> */}
         </MantineProvider>
       </body>
     </html>
