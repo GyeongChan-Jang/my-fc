@@ -1,4 +1,3 @@
-'use client';
 import { Container as MapDiv, NaverMap } from 'react-naver-maps';
 
 function Map() {

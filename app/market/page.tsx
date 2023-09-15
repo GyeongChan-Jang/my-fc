@@ -1,7 +1,7 @@
-import React from 'react';
+import Map from '@/components/map/Map';
 
 function AreaAnalysis() {
-  return <div>AreaAnalysis</div>;
+  return <></>;
 }
 
 export default AreaAnalysis;
