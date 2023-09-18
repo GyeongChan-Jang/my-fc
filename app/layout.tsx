@@ -1,6 +1,6 @@
 import '@mantine/core/styles.css';
 import React, { ReactNode } from 'react';
-import { MantineProvider, ColorSchemeScript } from '@mantine/core';
+import { MantineProvider, ColorSchemeScript, Paper, Flex } from '@mantine/core';
 
 import Script from 'next/script';
 import Header from '@/components/Header/Header';
@@ -21,9 +21,17 @@ export default async function RootLayout({ children }: { children: ReactNode }) 
         />
       </head>
       <body>
-        <MantineProvider>
-          <Header />
-          {children}
+        <MantineProvider
+          theme={{
+            fontFamily: 'inter, sans-serif',
+          }}
+        >
+          <Paper h="100%">
+            <Flex h="100%" direction="column" style={{ flexGrow: 1 }}>
+              <Header />
+              {children}
+            </Flex>
+          </Paper>
         </MantineProvider>
       </body>
     </html>

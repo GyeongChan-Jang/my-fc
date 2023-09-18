@@ -57,7 +57,14 @@ const headerItems = [
 
 function Header() {
   return (
-    <Container p={0} display="flex" style={{ justifyContent: 'space-between' }} h={64} bg="blue">
+    <Container
+      pos="sticky"
+      w="100%"
+      display="flex"
+      style={{ justifyContent: 'space-between' }}
+      h={64}
+      bg="blue"
+    >
       <Group w={377}>
         <Flex gap={20} pl={20}>
           <UnstyledButton w={145}>
