@@ -61,9 +61,9 @@ function Header() {
       pos="sticky"
       w="100%"
       display="flex"
-      style={{ justifyContent: 'space-between' }}
+      style={{ justifyContent: 'space-between', borderBottom: '1px solid rgb(238, 238, 238)' }}
       h={64}
-      bg="blue"
+      bg="white"
     >
       <Group w={377}>
         <Flex gap={20} pl={20}>
@@ -107,7 +107,7 @@ function Header() {
       <Group w={311}>
         <Flex pr={20} gap={20}>
           <Select w={190} />
-          <UnstyledButton ta="center" bg="gray" w={32}>
+          <UnstyledButton ta="center" bg="rgb(238, 238, 238)" w={32}>
             <Text fw="bold" c="#fff" fz={16}>
               장
             </Text>

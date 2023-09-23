@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <path data-name="패스 3616" d="M0 0h20v20H0z" style="fill:none"/>
+    <path data-name="빼기 12" d="M7.5 15a7.5 7.5 0 1 1 0-15v1.667a5.833 5.833 0 1 0 5.774 6.667h1.68A7.487 7.487 0 0 1 7.5 15z" transform="translate(2 2.5)" style="fill:#495057"/>
+    <path data-name="패스 3617" d="M0 0h5v1.667H0z" transform="translate(9.5 9.167)" style="fill:#fff"/>
+    <path data-name="사각형 10938 - 윤곽선" d="M0 0h5v1.667H0z" transform="translate(9.5 9.167)" style="fill:#495057"/>
+    <path data-name="타원 728" d="M2.5 1.667a.833.833 0 1 0 .833.833.834.834 0 0 0-.833-.833M2.5 0A2.5 2.5 0 1 1 0 2.5 2.5 2.5 0 0 1 2.5 0z" transform="translate(13.667 7.5)" style="fill:#495057"/>
+    <path data-name="패스 3623" d="M2.345-7.47A1.945 1.945 0 0 0 .29-5.506h1.255a.8.8 0 0 1 .8-.856c.554 0 .786.281.786.7 0 .323-.161.694-.849 1.4L.409-2.329v.729H4.5v-1.08H2.275l.825-.848c1-1.038 1.29-1.55 1.29-2.146A1.813 1.813 0 0 0 2.345-7.47z" transform="translate(11.211 8.238)" style="stroke:#495057;stroke-width:.2px;fill:#495057"/>
+</svg>
